@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75414A051CED7C3F005121B1 /* DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A041CED7C3F005121B1 /* DegreesToRadians.swift */; };
+		75414A071CED7CB7005121B1 /* UIGraphicsCalculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A061CED7CB7005121B1 /* UIGraphicsCalculators.swift */; };
+		75414A0A1CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */; };
 		75A068A21CE077C2001AA1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068A11CE077C2001AA1D1 /* AppDelegate.swift */; };
 		75A068A41CE077C2001AA1D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068A31CE077C2001AA1D1 /* ViewController.swift */; };
 		75A068A71CE077C2001AA1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A068A51CE077C2001AA1D1 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		75A068AC1CE077C2001AA1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A068AA1CE077C2001AA1D1 /* LaunchScreen.storyboard */; };
 		75A068B71CE077C2001AA1D1 /* MoreConciseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068B61CE077C2001AA1D1 /* MoreConciseSwiftTests.swift */; };
 		75A068C21CE077C2001AA1D1 /* MoreConciseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068C11CE077C2001AA1D1 /* MoreConciseSwiftUITests.swift */; };
+		75BDA8E01CE40D61002C5B29 /* UIColor+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDA8DF1CE40D61002C5B29 /* UIColor+CoreExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75414A041CED7C3F005121B1 /* DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
+		75414A061CED7CB7005121B1 /* UIGraphicsCalculators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGraphicsCalculators.swift; sourceTree = "<group>"; };
+		75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+CoreExtension.swift"; sourceTree = "<group>"; };
 		75A0689E1CE077C1001AA1D1 /* MoreConciseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreConciseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A068A11CE077C2001AA1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A068A31CE077C2001AA1D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		75A068BD1CE077C2001AA1D1 /* MoreConciseSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreConciseSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A068C11CE077C2001AA1D1 /* MoreConciseSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreConciseSwiftUITests.swift; sourceTree = "<group>"; };
 		75A068C31CE077C2001AA1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BDA8DF1CE40D61002C5B29 /* UIColor+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CoreExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75414A031CED7BA6005121B1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				75414A041CED7C3F005121B1 /* DegreesToRadians.swift */,
+				75414A061CED7CB7005121B1 /* UIGraphicsCalculators.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		75414A081CEDAF43005121B1 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
 		75A068951CE077C1001AA1D1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 		75A068A01CE077C2001AA1D1 /* MoreConciseSwift */ = {
 			isa = PBXGroup;
 			children = (
+				75A068CF1CE07807001AA1D1 /* Class */,
 				75A068A11CE077C2001AA1D1 /* AppDelegate.swift */,
 				75A068A31CE077C2001AA1D1 /* ViewController.swift */,
 				75A068A51CE077C2001AA1D1 /* Main.storyboard */,
@@ -123,6 +149,40 @@
 				75A068C31CE077C2001AA1D1 /* Info.plist */,
 			);
 			path = MoreConciseSwiftUITests;
+			sourceTree = "<group>";
+		};
+		75A068CF1CE07807001AA1D1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				75414A031CED7BA6005121B1 /* Tool */,
+				75A068D01CE07807001AA1D1 /* Extension */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		75A068D01CE07807001AA1D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75A068D11CE07807001AA1D1 /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		75A068D11CE07807001AA1D1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				75414A081CEDAF43005121B1 /* UIBezierPath */,
+				75BDA8DE1CE40D38002C5B29 /* UIColor */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		75BDA8DE1CE40D38002C5B29 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				75BDA8DF1CE40D61002C5B29 /* UIColor+CoreExtension.swift */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A068A41CE077C2001AA1D1 /* ViewController.swift in Sources */,
+				75414A051CED7C3F005121B1 /* DegreesToRadians.swift in Sources */,
+				75414A0A1CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift in Sources */,
 				75A068A21CE077C2001AA1D1 /* AppDelegate.swift in Sources */,
+				75BDA8E01CE40D61002C5B29 /* UIColor+CoreExtension.swift in Sources */,
+				75414A071CED7CB7005121B1 /* UIGraphicsCalculators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +548,7 @@
 				75A068C81CE077C2001AA1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75A068C91CE077C2001AA1D1 /* Build configuration list for PBXNativeTarget "MoreConciseSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +557,7 @@
 				75A068CB1CE077C2001AA1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75A068CC1CE077C2001AA1D1 /* Build configuration list for PBXNativeTarget "MoreConciseSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +566,7 @@
 				75A068CE1CE077C2001AA1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
