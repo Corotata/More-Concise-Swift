@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         UIGraphicsBeginImageContextWithOptions(imageView.frame.size, false, 0)
         
-        let path = UIBezierPath.coro_OuterPolygon(divideCount: 5, radius: 30)
+        let path = UIBezierPath.coro_OuterPolygon(divideCount: 6, radius: 50)
         
         UIColor.blueColor().set()
         path.stroke()

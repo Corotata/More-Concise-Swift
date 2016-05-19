@@ -10,6 +10,7 @@
 		75414A051CED7C3F005121B1 /* DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A041CED7C3F005121B1 /* DegreesToRadians.swift */; };
 		75414A071CED7CB7005121B1 /* UIGraphicsCalculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A061CED7CB7005121B1 /* UIGraphicsCalculators.swift */; };
 		75414A0A1CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */; };
+		75414A0D1CEDBFBB005121B1 /* UIImage+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75414A0C1CEDBFBB005121B1 /* UIImage+CoreExtension.swift */; };
 		75A068A21CE077C2001AA1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068A11CE077C2001AA1D1 /* AppDelegate.swift */; };
 		75A068A41CE077C2001AA1D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A068A31CE077C2001AA1D1 /* ViewController.swift */; };
 		75A068A71CE077C2001AA1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A068A51CE077C2001AA1D1 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		75414A041CED7C3F005121B1 /* DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
 		75414A061CED7CB7005121B1 /* UIGraphicsCalculators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGraphicsCalculators.swift; sourceTree = "<group>"; };
 		75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+CoreExtension.swift"; sourceTree = "<group>"; };
+		75414A0C1CEDBFBB005121B1 /* UIImage+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CoreExtension.swift"; sourceTree = "<group>"; };
 		75A0689E1CE077C1001AA1D1 /* MoreConciseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreConciseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A068A11CE077C2001AA1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A068A31CE077C2001AA1D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 				75414A091CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift */,
 			);
 			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		75414A0B1CEDBFA6005121B1 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				75414A0C1CEDBFBB005121B1 /* UIImage+CoreExtension.swift */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 		75A068951CE077C1001AA1D1 = {
@@ -171,6 +181,7 @@
 		75A068D11CE07807001AA1D1 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				75414A0B1CEDBFA6005121B1 /* UIImage */,
 				75414A081CEDAF43005121B1 /* UIBezierPath */,
 				75BDA8DE1CE40D38002C5B29 /* UIColor */,
 			);
@@ -321,6 +332,7 @@
 				75414A0A1CEDAF54005121B1 /* UIBezierPath+CoreExtension.swift in Sources */,
 				75A068A21CE077C2001AA1D1 /* AppDelegate.swift in Sources */,
 				75BDA8E01CE40D61002C5B29 /* UIColor+CoreExtension.swift in Sources */,
+				75414A0D1CEDBFBB005121B1 /* UIImage+CoreExtension.swift in Sources */,
 				75414A071CED7CB7005121B1 /* UIGraphicsCalculators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
